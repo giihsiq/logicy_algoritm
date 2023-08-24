@@ -6,7 +6,7 @@ algoritmo "negativos"
 var
 
    v: vetor [0..9] de inteiro
-   n, i,x : inteiro
+   n, i : inteiro
 
 inicio
 
@@ -16,15 +16,17 @@ inicio
       para i de 0 ate n - 1 faca
       
       escreva("Digite um numero: ")
-      leia (x)
-      v[i] <- x
+      leia (v[i])
       
       fimpara
-
-      se (x < 0) entao
       
-     escreval("Números Negativos:")
-     escreval(x)
-
-     fimse
+      escreval("Negativos: ")
+      
+      para i de 0 ate n - 1 faca
+      
+         se v[i] < 0 entao
+         escreval(v[i])
+         
+         fimse
+      fimpara
 fimalgoritmo
