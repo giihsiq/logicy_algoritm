@@ -1,2 +1,2 @@
-# visualg
-My experience with Programation Logicy in VisualG.
+## VisualG
+My first experience with programming logic using VisualG.
